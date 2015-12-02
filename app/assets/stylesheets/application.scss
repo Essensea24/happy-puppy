@@ -16,21 +16,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.brandword {
-		max-width: 40%;
-		height: 50px;
-		background-image: url("happypupp.png");
-		background-size: cover;
-	}
 
 
-ul.nav.navbar-nav {
+
+/*ul.nav.navbar-nav {
 	width: 80%;
 	text-align: center;
 	margin-left: 20%;
 	font-size: 12px;
 }
-
+*/
 
 
 /*for  phone size*/
@@ -45,7 +40,7 @@ ul.nav.navbar-nav {
 
 	}
 	.home-nav {
-		background: url("FullSizeRender.jpg") no-repeat fixed;
+		background: url("kushi1.jpg") no-repeat fixed;
 		max-width: 100%;
 		height: 680px;
 		background-size: cover;
@@ -63,7 +58,7 @@ ul.nav.navbar-nav {
 
 	}
 	.home-nav {
-		background: url("FullSizeRender.jpg") no-repeat fixed;
+		background: url("kushi1.jpg") no-repeat fixed;
 		max-width: 100%;
 		height: 680px;
 		background-size: cover;
@@ -71,37 +66,21 @@ ul.nav.navbar-nav {
  }
 
   /* ipad */
- @media screen and (min-width : 768px) and (max-width : 1024px) {
- 	ul.nav.navbar-nav {
-		width: 80%;
+ @media screen and (max-width : 1024px) {
+ 	  	ul.nav.navbar-nav {
+		width: 100%;
 		text-align: center;
-		margin-left: 20%;
+		margin-left: 5%;
 		font-size: 12px;
 
 	}
 	.home-nav {
-		background: url("FullSizeRender.jpg") no-repeat fixed;
-		max-width: 100%;
-		height: 680px;
-		background-size: cover;
-	}
-
-    }
-
-    /*laptop and desktop*/
-    @media screen and (min-width : 1024px) {
-    	ul.nav.navbar-nav {
-		width: 80%;
-		text-align: center;
-		margin-left: 20%;
-		font-size: 12px;
-
-	}
-	.home-nav {
-		background: url("FullSizeRender.jpg") no-repeat fixed;
+		background: url("kushi1.jpg") no-repeat;
 		max-width: 100%;
 		min-height:  680px;
 		background-size: cover;
+		-webkit-filter: contrast(1.3);
+ 		 filter: contrast(1.3);
 
 	}
 
@@ -111,9 +90,54 @@ ul.nav.navbar-nav {
 	}
 
 	.navbar-inverse .navbar-nav > li > a {
-		color: black;
-		size: 8px;
+		color: #2B2B2B;
+		font-size: 12px;
 		text-align: center;
+	}
+
+	.brandword {
+		max-width: 40%;
+		height: 50px;
+		background-image: url("happypupp.png");
+		background-size: cover;
+	}
+    }
+
+    /*laptop and desktop*/
+    @media screen and (min-width : 1024px) {
+    	ul.nav.navbar-nav {
+		width: 80%;
+		text-align: center;
+		margin-left: 23%;
+		font-size: 12px;
+
+	}
+	.home-nav {
+		background: url("kushi1.jpg") no-repeat;
+		max-width: 100%;
+		min-height:  680px;
+		background-size: cover;
+		-webkit-filter: contrast(1.3);
+ 		 filter: contrast(1.3);
+
+	}
+
+	.navbar-inverse {
+		background-color: transparent;
+		border-bottom: none;
+	}
+
+	.navbar-inverse .navbar-nav > li > a {
+		color: #2B2B2B;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.brandword {
+		max-width: 40%;
+		height: 50px;
+		background-image: url("happypupp.png");
+		background-size: cover;
 	}
     }
 
