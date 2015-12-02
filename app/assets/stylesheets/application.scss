@@ -31,15 +31,10 @@ ul.nav.navbar-nav {
 	font-size: 12px;
 }
 
-.home-nav {
-	background-image: url("kushi1.jpg");
-	max-width: 100%;
-	height: 680px;
-}
 
 
-
-@media screen and (min-width: 400px)  {
+/*for  phone size*/
+@media screen and (min-width : 320px) and (max-width : 480px){
 
 
 	ul.nav.navbar-nav {
@@ -47,30 +42,72 @@ ul.nav.navbar-nav {
 		text-align: center;
 		margin-left: 20%;
 		font-size: 12px;
+
 	}
 	.home-nav {
-		background-image: url("kushi1.jpg");
+		background: url("FullSizeRender.jpg") no-repeat fixed;
 		max-width: 100%;
 		height: 680px;
 		background-size: cover;
 	}
 
 }
-@media screen and (min-width: 680px)  {
-	
-}
-@media screen and (min-width: 1000px) {
 
+/*for tablet size*/
+ @media screen and (max-width: 768px) {
+ 	ul.nav.navbar-nav {
+		width: 80%;
+		text-align: center;
+		margin-left: 20%;
+		font-size: 12px;
+
+	}
 	.home-nav {
-		background-image: url("kushi1.jpg");
+		background: url("FullSizeRender.jpg") no-repeat fixed;
 		max-width: 100%;
 		height: 680px;
 		background-size: cover;
 	}
+ }
+
+  /* ipad */
+ @media screen and (min-width : 768px) and (max-width : 1024px) {
+ 	ul.nav.navbar-nav {
+		width: 80%;
+		text-align: center;
+		margin-left: 20%;
+		font-size: 12px;
+
+	}
+	.home-nav {
+		background: url("FullSizeRender.jpg") no-repeat fixed;
+		max-width: 100%;
+		height: 680px;
+		background-size: cover;
+	}
+
+    }
+
+    /*laptop and desktop*/
+    @media screen and (min-width : 1024px) {
+    	ul.nav.navbar-nav {
+		width: 80%;
+		text-align: center;
+		margin-left: 20%;
+		font-size: 12px;
+
+	}
+	.home-nav {
+		background: url("FullSizeRender.jpg") no-repeat fixed;
+		max-width: 100%;
+		min-height:  680px;
+		background-size: cover;
+
+	}
+
 	.navbar-inverse {
 		background-color: transparent;
-		border: none;
-		color: black;
+		border-bottom: none;
 	}
 
 	.navbar-inverse .navbar-nav > li > a {
@@ -78,18 +115,9 @@ ul.nav.navbar-nav {
 		size: 8px;
 		text-align: center;
 	}
+    }
 
-}
-@media screen and (min-width: 1400px) {
-	.home-nav {
-		background-image: url("kushi1.jpg");
-		max-width: 100%;
-		height: 680px;
-	}
 
-	.navbar-inverse {
-		background-color: transparent;
-	}
 
-}
+
 
