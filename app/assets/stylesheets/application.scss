@@ -29,7 +29,7 @@
 
 
 /*for  phone size*/
-@media screen and (min-width : 320px) and (max-width : 480px){
+@media screen and (min-width : 320px) and (max-width : 768px){
 
 
 	ul.nav.navbar-nav {
@@ -40,50 +40,51 @@
 
 	}
 	.home-nav {
-		background: url("kushi1.jpg") no-repeat fixed;
+		background: url("kushicropped.jpg") no-repeat fixed;
 		max-width: 100%;
 		height: 680px;
+		background-size: cover;
+	}
+	/*nav-bar menu background to black*/
+	.navbar-inverse {
+		background-color: black;
+		border-bottom: none;
+	}
+
+	/*remove word logo from the dropbox menu*/
+	.brandword {
+		display: none;
+		max-width: 40%;
+		height: 50px;
+		background-image: url("happypupp.png");
 		background-size: cover;
 	}
 
 }
 
 /*for tablet size*/
- @media screen and (max-width: 768px) {
+ @media screen and (min-device-width: 768px) {
  	ul.nav.navbar-nav {
-		width: 80%;
+		width: 100%;
 		text-align: center;
 		margin-left: 20%;
 		font-size: 12px;
 
 	}
 	.home-nav {
-		background: url("kushi1.jpg") no-repeat fixed;
+		background: url("kushicropped.jpg") no-repeat fixed;
 		max-width: 100%;
 		height: 680px;
 		background-size: cover;
 	}
- }
-
-  /* ipad */
- @media screen and (max-width : 1024px) {
- 	  	ul.nav.navbar-nav {
-		width: 100%;
-		text-align: center;
-		margin-left: 5%;
-		font-size: 12px;
-
-	}
-	.home-nav {
-		background: url("kushi1.jpg") no-repeat;
-		max-width: 100%;
-		min-height:  680px;
+	/*remove word logo from the dropbox menu*/
+	.brandword {
+		max-width: 40%;
+		height: 50px;
+		background-image: url("happypupp.png");
 		background-size: cover;
-		-webkit-filter: contrast(1.3);
- 		 filter: contrast(1.3);
-
 	}
-
+	/*nav-bar menu background to black*/
 	.navbar-inverse {
 		background-color: transparent;
 		border-bottom: none;
@@ -94,14 +95,9 @@
 		font-size: 12px;
 		text-align: center;
 	}
+ }
 
-	.brandword {
-		max-width: 40%;
-		height: 50px;
-		background-image: url("happypupp.png");
-		background-size: cover;
-	}
-    }
+
 
     /*laptop and desktop*/
     @media screen and (min-width : 1024px) {
