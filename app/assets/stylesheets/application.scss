@@ -31,7 +31,7 @@
 /*for  phone size*/
 @media screen and (min-width : 320px) and (max-width : 768px){
 
-
+/*nav*/
 	ul.nav.navbar-nav {
 		width: 80%;
 		text-align: center;
@@ -63,6 +63,8 @@
 }
 
 /*for tablet size*/
+
+/*nav*/
  @media screen and (min-device-width: 768px) {
  	ul.nav.navbar-nav {
 		width: 100%;
@@ -99,7 +101,8 @@
 
 
 
-    /*laptop and desktop*/
+ /*laptop and desktop*/
+ /*nav*/
     @media screen and (min-width : 1024px) {
     	ul.nav.navbar-nav {
 		width: 80%;
@@ -135,6 +138,42 @@
 		background-image: url("happypupp.png");
 		background-size: cover;
 	}
+
+	/*our mission*/
+	div.mission {
+		margin: 0 auto;
+		width: 50%;
+		height: 300px;
+		text-align: center;
+
+		
+	}
+
+	h1#mission {
+		text-align: center;
+		margin-top: 15%;
+	}
+
+	p.bodytexts {
+		margin-top: 5%;
+		/*font-family: Lato,sans-serif;*/
+
+	}
+
+	button.buttonsmall {
+		text-align: center;
+		background-color: #660099;
+		margin-top: 5%;
+		width: 150px;
+		height: 50px;
+		font-family: Lato,sans-serif;
+		border: none;
+		color: white;
+	}
+
+
+
+
     }
 
 
