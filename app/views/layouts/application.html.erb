@@ -8,12 +8,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="home-nav">
-<%= render partial: "layouts/navbar" %>
-</div> <!-- close home_nav -->
+	<div class="parallax">
+		<div class="home-nav parallax-layer parallax-layer--base">
+			<%= render partial: "layouts/navbar" %>
+		</div> <!-- close home_nav -->
 
-<%= yield %>
+			 <%= yield %>
 
-
+	</div>
 </body>
 </html>

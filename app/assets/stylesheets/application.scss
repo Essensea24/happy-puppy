@@ -19,13 +19,9 @@
 
 
 
-/*ul.nav.navbar-nav {
-	width: 80%;
-	text-align: center;
-	margin-left: 20%;
-	font-size: 12px;
+body {
+	display: block;
 }
-*/
 
 
 /*for  phone size*/
@@ -66,6 +62,7 @@
 
 /*nav*/
  @media screen and (min-device-width: 768px) {
+ 	
  	ul.nav.navbar-nav {
 		width: 100%;
 		text-align: center;
@@ -104,6 +101,38 @@
  /*laptop and desktop*/
  /*nav*/
     @media screen and (min-width : 1024px) {
+
+    	div {
+    		display: block;
+    	}
+    	
+    	.parallax {
+    		height: 100vh;
+    		overflow-x: hidden;
+		overflow-y: auto;
+		 -webkit-perspective: 1px;
+		perspective: 1px;
+    	}
+
+    	.parallax-layer {
+    		position: absolute;
+    		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+    	}
+
+    	.parallax-layer--back {
+    		-webkit-transform: translateZ(-1px) scale(2);
+    		transform: translateZ(-1px) scale(2);
+    	}
+
+    	.parallax-layer--base {
+    		-webkit-transform: translateZ(0);
+    		transform: translateZ(0);
+
+    	}
+
     	ul.nav.navbar-nav {
 		width: 80%;
 		text-align: center;
@@ -113,11 +142,12 @@
 	}
 	.home-nav {
 		background: url("kushi1.jpg") no-repeat;
-		max-width: 100%;
-		min-height:  680px;
+		/*max-width: 100%;
+		min-height:  680px;*/
 		background-size: cover;
 		-webkit-filter: contrast(1.3);
  		 filter: contrast(1.3);
+ 	
 
 	}
 
@@ -132,6 +162,7 @@
 		text-align: center;
 	}
 
+
 	.brandword {
 		max-width: 40%;
 		height: 50px;
@@ -143,15 +174,15 @@
 	div.mission {
 		margin: 0 auto;
 		width: 50%;
-		height: 300px;
+		height: 200px;
 		text-align: center;
+    		padding-top: 680px;
 
-		
 	}
 
 	h1#mission {
 		text-align: center;
-		margin-top: 15%;
+		margin-top: 5%;
 	}
 
 	p.bodytexts {
