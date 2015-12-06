@@ -105,6 +105,7 @@ body {
     	div {
     		display: block;
     	}
+    	    
     	
     	.parallax {
     		height: 100vh;
@@ -125,18 +126,19 @@ body {
     	.parallax-layer--back {
     		-webkit-transform: translateZ(-1px) scale(2);
     		transform: translateZ(-1px) scale(2);
+    		
     	}
 
     	.parallax-layer--base {
     		-webkit-transform: translateZ(0);
     		transform: translateZ(0);
+    		
 
     	}
 
     	.parallax-layer--deep {
 	    	-webkit-transform: translateZ(-1px) scale(2);
     		transform: translateZ(-1px) scale(2);
-    
     	}
 
     	ul.nav.navbar-nav {
@@ -159,13 +161,13 @@ body {
 		background-size: cover;
 		-webkit-filter: contrast(1.3);
  		 filter: contrast(1.3);
- 	
-
+ 
 	}
 
 	.navbar-inverse {
 		background-color: transparent;
 		border-bottom: none;
+		display: fixed;
 	}
 
 	.navbar-inverse .navbar-nav > li > a {
@@ -234,8 +236,8 @@ body {
 		width: 100%;
 		height: 270px;
 		text-align: center;
-    		margin-top:1300px;
-    		padding-top: 400px;
+    		margin-top:2400px;
+    		padding-top: 50px;
     
 	}
 
@@ -243,14 +245,13 @@ body {
 		width: 80%;
 		height: 100px;
 		position: center;
-		margin-left: 15%;
+		
 	}
 
 
 
 	.band, .social-tweets, .live-pics {
-		width: 25%;
-		margin-left: 5%;
+		width: 30%;
 		text-align: left;
 		
 			
