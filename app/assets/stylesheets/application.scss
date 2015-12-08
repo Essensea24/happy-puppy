@@ -201,7 +201,7 @@ body {
 	}
 
 	section.module.parallax-2 {
-		background-image: url("kushi.jpg");
+		background-image: url("kushi2.jpg");
 	}
 
 	/*================div======================*/
@@ -220,6 +220,26 @@ body {
 		font-weight: 400;
 		text-align: center;
 		text-transform: uppercase;
+
+	}
+
+	div.footer {
+		width: 100%;
+		height: 300px;
+	
+	}
+
+	.brand, .social-tweets {
+		color: white;
+		border-right: solid 1px #8C489F;
+		height: 300px;
+		
+	
+	}
+
+	.live-pics {
+		color: white;
+		height: 300px;
 
 	}
 
