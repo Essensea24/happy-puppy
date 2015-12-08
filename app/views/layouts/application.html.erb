@@ -7,19 +7,15 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-	
+<body>	
 		<div class="nav-tabs">
 			<%= render partial: "layouts/navbar" %>
 		</div> <!-- close home_nav -->
-		<div class="parallax">
 
 			 <%= yield %>
 
-		<div class="home-footer parallax-layer parallax-layer--deep">
-			<%= render partial: "layouts/footer" %>
-		</div>
+		
 
-	</div>
+	
 </body>
 </html>

@@ -15,3 +15,15 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap-sprockets
+
+var $window = $(window);
+
+$(window).on('scroll', function() {
+    $topOffset = $(this).scrollTop();
+ 
+    if ($topOffset >= 680) {
+    	$('nav.navbar-inverse').css("background-color", "white");
+    } else {
+    	$('nav.navbar-inverse').css("background-color", "transparent");
+    } 
+});

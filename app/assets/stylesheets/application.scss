@@ -99,48 +99,11 @@ body {
 
 
  /*laptop and desktop*/
- /*nav*/
+ /*nav===========================================*/
     @media screen and (min-width : 1024px) {
 
-    	div {
-    		display: block;
-    	}
-    	    
-    	
-    	.parallax {
-    		height: 100vh;
-    		overflow-x: hidden;
-		overflow-y: auto;
-		 -webkit-perspective: 1px;
-		perspective: 1px;
-    	}
-
-    	.parallax-layer {
-    		position: absolute;
-    		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-    	}
-
-    	.parallax-layer--back {
-    		-webkit-transform: translateZ(-1px) scale(2);
-    		transform: translateZ(-1px) scale(2);
-    		
-    	}
-
-    	.parallax-layer--base {
-    		-webkit-transform: translateZ(0);
-    		transform: translateZ(0);
-    		
-
-    	}
-
-    	.parallax-layer--deep {
-	    	-webkit-transform: translateZ(-1px) scale(2);
-    		transform: translateZ(-1px) scale(2);
-    	}
-
+    	/*navigation tabs*/
+    
     	ul.nav.navbar-nav {
 		width: 80%;
 		text-align: center;
@@ -149,20 +112,6 @@ body {
 
 	}
 
-	.container {
-		width: 100%;
-		height: 200px;
-
-	}
-	.home-nav {
-		background: url("kushi1.jpg") no-repeat;
-		/*max-width: 100%;
-		min-height:  680px;*/
-		background-size: cover;
-		-webkit-filter: contrast(1.3);
- 		 filter: contrast(1.3);
- 
-	}
 
 	.navbar-inverse {
 		background-color: transparent;
@@ -184,41 +133,31 @@ body {
 		background-size: cover;
 	}
 
-	/*our mission*/
+	
+	/*home page=================================*/
 
-	section.mid-background {
-		width: 120%;
-		height: 400px;
-		background-color: black;
-		margin-top: 600px;
-		padding-top: 50px;
-		margin-left: -10%;
+	/*==============primary structure==============*/
+	.container {
+		max-width: 100%;
+		margin: 0 auto;
 	}
 
-	div.mission {
-		width: 55%;
-		text-align: left;
-    		margin-left: 13%;
-    		color: white;
-
+	/*=================sections=================*/
+	/*to elimate the bottom space*/
+	section.module:last-child {
+		margin-bottom: 0;
 	}
 
-	div.vet-recommend {
-		width: 30%;
-		text-align: left;
-    		color: white;
-
+	section.module h2 {
+		margin-bottom: 40px;
+		font-family: serif;
+		font-size: 30px;
 	}
 
-	h1#mission {
-		text-align: center;
-		margin-top: 5%;
-	}
-
-	p.bodytexts {
-		margin-top: 5%;
-		/*font-family: Lato,sans-serif;*/
-
+	section.module p {
+		margin-bottom: 40px;
+		font-size: 16px;
+		font-weight: 300;
 	}
 
 	button.buttonsmall {
@@ -232,30 +171,62 @@ body {
 		color: white;
 	}
 
-	.home-footer {
-		width: 100%;
-		height: 270px;
+	section.module p:last-child {
+		margin-bottom: 0;
+	}
+
+	section.module.content {
+		padding: 40px 0;
+	}
+
+	section.module.parallax {
+		height: 680px;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	section.module.parallax h1 {
+		color: black;
+		font-size: 48px;
+		line-height: 600px;
+		font-weight: 700;
 		text-align: center;
-    		margin-top:2400px;
-    		padding-top: 50px;
-    
+		text-transform: uppercase;
 	}
 
-	.footer {
-		width: 80%;
-		height: 100px;
-		position: center;
-		
+	section.module.parallax-1 {
+		background-image: url("kushi1.jpg");
+	}
+
+	section.module.parallax-2 {
+		background-image: url("kushi.jpg");
+	}
+
+	/*================div======================*/
+
+	div.mission {
+		width: 60%;
+	}
+
+	div.vet-recommended {
+		width: 40%;
+	}
+
+	div.description h2 {
+		color: black;
+		font-size: 25px;
+		font-weight: 400;
+		text-align: center;
+		text-transform: uppercase;
+
 	}
 
 
 
-	.band, .social-tweets, .live-pics {
-		width: 30%;
-		text-align: left;
-		
-			
-	}
+
+	
 
     }
 
