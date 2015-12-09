@@ -22,7 +22,7 @@ $(window).on('scroll', function() {
     $topOffset = $(this).scrollTop();
  
     if ($topOffset >= 680) {
-    	$('nav.navbar-inverse').css("background-color", "white");
+    	$('nav.navbar-inverse').css("background-color", "grey");
     	$('img.brandword').fadeOut();
 
     } else {
