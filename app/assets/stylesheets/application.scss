@@ -127,9 +127,8 @@ body {
 
 
 	.brandword {
-		max-width: 40%;
+		width: 200px;
 		height: 50px;
-		background-image: url("happypupp.png");
 		background-size: cover;
 	}
 
@@ -187,8 +186,8 @@ body {
 		background-size: cover;
 	}
 
-	section.module.parallax h1 {
-		color: black;
+	section.module.parallax-1 h1 {
+		color: white;
 		font-size: 48px;
 		line-height: 600px;
 		font-weight: 700;
@@ -196,12 +195,24 @@ body {
 		text-transform: uppercase;
 	}
 
+	section.module.parallax-2 h1 {
+		color: white;
+		font-size: 25px;
+		line-height: 900px;
+		font-weight: 700;
+		text-align: 1;
+		text-transform: uppercase;
+	}
+
+
+
 	section.module.parallax-1 {
 		background-image: url("kushi1.jpg");
 	}
 
 	section.module.parallax-2 {
-		background-image: url("kushi2.jpg");
+		background-image: url("kushi.jpg");
+	
 	}
 
 	/*================div======================*/
@@ -225,28 +236,38 @@ body {
 
 	div.footer {
 		width: 100%;
-		height: 300px;
+		height: 250px;
+		background-color: white;
+
 	
 	}
 
 	.brand, .social-tweets {
-		color: white;
-		border-right: solid 1px #8C489F;
-		height: 300px;
-		
+		border-right: solid 1px grey;
+		height: 300px;	
+		text-align: center;
+		text-transform: capitalize;
 	
 	}
 
-	.live-pics {
-		color: white;
-		height: 300px;
+
+	.brand h1 {
+			
+		font-family: 'Schoolbell', cursive;
+		font-size: 50px;
+		text-shadow: 1px 1px 1px grey;
 
 	}
 
+	.footer-brand {
+		height: 100px;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
 
 
-
-	
 
     }
 
