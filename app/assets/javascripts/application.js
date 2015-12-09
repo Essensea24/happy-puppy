@@ -23,7 +23,11 @@ $(window).on('scroll', function() {
  
     if ($topOffset >= 680) {
     	$('nav.navbar-inverse').css("background-color", "white");
+    	$('img.brandword').fadeOut();
+
     } else {
     	$('nav.navbar-inverse').css("background-color", "transparent");
+    	$('img.brandword').fadeIn();
+
     } 
 });
