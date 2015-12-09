@@ -108,7 +108,6 @@ body {
 		width: 80%;
 		text-align: center;
 		margin-left: 23%;
-		font-size: 12px;
 
 	}
 
@@ -120,8 +119,15 @@ body {
 	}
 
 	.navbar-inverse .navbar-nav > li > a {
+		color: black;
+		font-family: 'Lato', sans-serif;
+		font-size: 25px;
+		font-weight: 400;
+		text-align: left;
+		text-transform: uppercase;
+		-webkit-font-smoothing: antialiased;
 		color: #2B2B2B;
-		font-size: 12px;
+		font-size: 14px;
 		text-align: center;
 	}
 
@@ -151,17 +157,19 @@ body {
 		margin-bottom: 40px;
 		font-family: serif;
 		font-size: 30px;
+		-webkit-font-smoothing: antialiased;
 	}
 
 	section.module p {
 		margin-bottom: 40px;
 		font-size: 16px;
 		font-weight: 300;
+		-webkit-font-smoothing: antialiased;
 	}
 
 	button.buttonsmall {
 		text-align: center;
-		background-color: #660099;
+		background-color: #558C89;
 		margin-top: 5%;
 		width: 150px;
 		height: 50px;
@@ -172,10 +180,13 @@ body {
 
 	section.module p:last-child {
 		margin-bottom: 0;
+		-webkit-font-smoothing: antialiased;
 	}
 
 	section.module.content {
 		padding: 40px 0;
+		background-color: #F6F6F6;
+
 	}
 
 	section.module.parallax {
@@ -193,15 +204,18 @@ body {
 		font-weight: 700;
 		text-align: center;
 		text-transform: uppercase;
+		-webkit-font-smoothing: antialiased;
 	}
 
 	section.module.parallax-2 h1 {
+		font-family: 'Lato', sans-serif;
 		color: white;
 		font-size: 25px;
 		line-height: 900px;
 		font-weight: 700;
 		text-align: 1;
 		text-transform: uppercase;
+		-webkit-font-smoothing: antialiased;
 	}
 
 
@@ -227,17 +241,30 @@ body {
 
 	div.description h2 {
 		color: black;
+		font-family: 'Lato', sans-serif;
 		font-size: 25px;
 		font-weight: 400;
-		text-align: center;
+		text-align: left;
 		text-transform: uppercase;
+		-webkit-font-smoothing: antialiased;
 
+	}
+
+	div.description h4 {
+		font-family: 'Lato', sans-serif;
+		color: black;
+		font-size: 16px;
+		font-weight: 400;
+		text-align: left;
+		text-transform: uppercase;
+		-webkit-font-smoothing: antialiased;
 	}
 
 	div.footer {
 		width: 100%;
 		height: 250px;
-		background-color: white;
+		background-color: #F6F6F6;
+
 
 	
 	}
@@ -245,26 +272,35 @@ body {
 	.brand, .social-tweets {
 		border-right: solid 1px grey;
 		height: 300px;	
-		text-align: center;
+		text-align: left;
 		text-transform: capitalize;
 	
 	}
 
 
-	.brand h1 {
-			
-		font-family: 'Schoolbell', cursive;
-		font-size: 50px;
-		text-shadow: 1px 1px 1px grey;
+	.footer-brand {
+		height: 100px;
+		/*background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;*/
+		background-size: cover;
+		margin-bottom: 20px;	
+		-webkit-font-smoothing: antialiased;
 
 	}
 
-	.footer-brand {
+	.footer-brand p, .social-tweets p, .live-pics p {
+		text-align: left;
+		font-family: 'Lato', sans-serif;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 23px;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	.footer-bottom {
 		height: 100px;
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
+		margin-top: 100px;
 	}
 
 
