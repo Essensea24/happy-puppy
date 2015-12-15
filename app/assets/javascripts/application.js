@@ -20,13 +20,14 @@ var $window = $(window);
 
 $(window).on('scroll', function() {
     $topOffset = $(this).scrollTop();
+    console.log($topOffset);
  
-    if ($topOffset >= 680) {
-    	$('nav.navbar-inverse').css("background-color", "grey");
-    	$('img.brandword').fadeOut();
+    if ($topOffset >= 960) {
+    	// $('nav.navbar-inverse').css("background-color", "black");
+    	 $('img.brandword').fadeOut();
 
     } else {
-    	$('nav.navbar-inverse').css("background-color", "transparent");
+    	// $('nav.navbar-inverse').css("background-color", "white");
     	$('img.brandword').fadeIn();
 
     } 

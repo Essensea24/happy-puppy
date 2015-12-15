@@ -113,13 +113,14 @@ body {
 
 
 	.navbar-inverse {
-		background-color: transparent;
-		border-bottom: none;
+		background-color: white;
+		/*border-bottom: solid 1px white;*/
 		display: fixed;
+
 	}
 
 	.navbar-inverse .navbar-nav > li > a {
-		color: white;
+		color: black;
 		font-family: 'Lato', sans-serif;
 		font-size: 25px;
 		font-weight: 400;
@@ -189,7 +190,6 @@ body {
 
 	section.module.parallax {
 		height: 680px;
-		background-position: 50% 50%;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
@@ -219,12 +219,15 @@ body {
 
 
 	section.module.parallax-1 {
-		background-image: url("kushi1.jpg");
+		background-image: url("dark.JPG");
+		background-position: 150% 25%;
+
+		
 	}
 
 	section.module.parallax-2 {
-		background-image: url("kushi.jpg");
-	
+		background-image: url("superman.JPG");
+		background-position: 80% 65%;
 	}
 
 	/*================div======================*/
@@ -258,12 +261,17 @@ body {
 		-webkit-font-smoothing: antialiased;
 	}
 
+	section.module.content.footer-background {
+		height: 400px;
+	}
+
 	div.footer {
 		width: 100%;
-		height: 200px;
-		background-color: #F6F6F6;
-
-
+		height: 370px;
+		background-color: #3D3C3A;
+		margin-top: -2%;
+		padding-top: 5%;
+		padding-bottom: -10%;
 	
 	}
 
@@ -290,9 +298,6 @@ body {
 
 	.footer-brand {
 		height: 100px;
-		/*background-position: 50% 50%;
-		background-repeat: no-repeat;
-		background-attachment: fixed;*/
 		background-size: cover;
 		margin-bottom: 5px;	
 		-webkit-font-smoothing: antialiased;
@@ -307,6 +312,7 @@ body {
 		font-weight: 400;
 		line-height: 20px;
 		-webkit-font-smoothing: antialiased;
+		color: white;
 	}
 
 	.footer-bottom {
@@ -331,7 +337,7 @@ body {
 	    width: 35px;
 	    height: 35px;
 	    color: #FFF;
-	    background-color: #909AA0;
+	    background-color: black;
 	    font-size: 12px;
 	    text-align:center;
 	    padding-top: 12px;
@@ -354,6 +360,7 @@ body {
 	    -webkit-transition: all ease 0.3s;
 	    -o-transition: all ease 0.3s;
 	    -ms-transition: all ease 0.3s;
+	    background-color: white;
 	}
 
 
