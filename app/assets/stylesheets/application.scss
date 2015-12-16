@@ -29,6 +29,8 @@
  @media screen and (min-device-width: 768px) {
  	div.navbar-header {
  		background-color: white;
+ 		height: 70px;
+ 		padding-top: 3%;
  	}
  	
  	ul.nav.navbar-nav {
@@ -39,18 +41,9 @@
 
 	}
 
-	li.hidden {
-		display: none;
-	}
-	
-	/*remove word logo from the dropbox menu*/
-	.brandword {
-		display: none;
-		max-width: 40%;
-		height: 50px;
-		background-size: cover;
 
-	}
+	
+	
 	/*nav-bar menu background to black*/
 	.navbar-inverse {
 		background-color: transparent;
@@ -76,7 +69,15 @@
 
 
 	.navbar-default .navbar-toggle .icon-bar {
-		background-color: black;
+		background-color: white;
+	}
+
+	.navbar-inverse .navbar-toggle {
+		border-color: white;
+	}
+
+	button.navbar-toggle {
+		background-color: purple;
 	}
 
 	/*home page=================================*/
@@ -378,10 +379,12 @@
 	}
 
 
-	.brandword {
-		width: 150px;
+	img.brandword {
+		max-width: 150%;
 		height: 40px;
 		background-size: cover;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	img.phone-logo{
@@ -656,7 +659,7 @@
     	ul.nav.navbar-nav {
 		width: 80%;
 		text-align: center;
-		margin-left: 18%;
+		margin-left: 15%;
 
 	}
 
@@ -681,10 +684,14 @@
 	}
 
 
-	.brandword {
-		width: 200px;
-		height: 50px;
+	img.brandword {
+		max-width: 180px;
+		height: 40px;
 		background-size: cover;
+		zoom: 1.3;
+		padding-left: 30px;
+		padding-right: 30px;
+
 	}
 
 	
@@ -767,10 +774,6 @@
 		background-position: 50% 40%;	
 	}
 
-	img.brandword {
-		zoom: 1.15;
-	}
-
 	img.phone-logo{
 		display: none;
 	}
@@ -787,6 +790,11 @@
 	div.mission {
 		width: 60%;
 	}
+
+	div.space {
+		display: none;
+	}
+
 
 
 	div.vet-recommend {
