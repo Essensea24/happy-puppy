@@ -183,7 +183,7 @@
 	}
 
 	section.module.content {
-		padding: 40px 0;
+		padding: 20px 0;
 		background-color: #F6F6F6;
 		
 
@@ -238,16 +238,20 @@
 	/*================div======================*/
 
 	div.mission {
-		width: 60%;
+		width: 40%;
 
+	}
+
+	div.mission p, div.description p {
+		font-size: 12px;
 	}
 
 
 	div.vet-recommend {
-		width: 40%;
-		height: 250 vh;
+		width: 30%;
+		height: 200px;
 		text-align: center;
-		margin-top: 10%;
+		/*position: relative;*/
 	}
 	
 	div.description h2 {
@@ -528,11 +532,14 @@
 		display: none;
 	}
 
-	div.vet-recommended {
+	div.vet-recommend {
 		width: 40%;
+		height: 200px;
+		position: relative;
 	}
 
-	div.description h2 {
+
+	div.slideshow h2 {
 		color: black;
 		font-family: 'Lato', sans-serif;
 		font-size: 25px;
@@ -543,7 +550,7 @@
 
 	}
 
-	div.description h4 {
+	div.slideshow  h4 {
 		font-family: 'Lato', sans-serif;
 		color: black;
 		font-size: 16px;
@@ -552,6 +559,8 @@
 		text-transform: uppercase;
 		-webkit-font-smoothing: antialiased;
 	}
+
+	
 
 	section.module.content.footer-background {
 		height: 350px;
