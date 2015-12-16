@@ -19,6 +19,8 @@
 var $window = $(window);
 
 $(window).on('scroll', function() {
+
+ // to remove logo after passing div.mission
     $topOffset = $(this).scrollTop();
     console.log($topOffset);
  
@@ -31,4 +33,9 @@ $(window).on('scroll', function() {
     	$('img.brandword').fadeIn();
 
     } 
+
+
+  //div fade in & fade out for vet recommended
+
+  
 });
