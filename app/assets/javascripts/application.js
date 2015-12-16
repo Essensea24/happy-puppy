@@ -27,10 +27,14 @@ $(window).on('scroll', function() {
     if ($topOffset >= 960) {
     	// $('nav.navbar-inverse').css("background-color", "black");
     	 $('img.brandword').fadeOut();
+    	 $('ul.nav.navbar-nav').css("margin-left", "0px");
 
     } else {
     	// $('nav.navbar-inverse').css("background-color", "white");
     	$('img.brandword').fadeIn();
+    	$('ul.nav.navbar-nav').css("margin-left", "15%");
+
+
 
     } 
 
