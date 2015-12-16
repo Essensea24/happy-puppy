@@ -169,42 +169,50 @@
 
 	section.module.parallax-2 {
 		background-image: url("https://i.imgur.com/2OodMVD.jpg");
-		background-position:40% 60%;
+		background-position:40% 50%;
 
 	}
 
 	/*================div======================*/
 
+	div.row.middle {
+		width: 100%;
+		height: 500px;
+	}
+
 	div.mission {
 		width: 100%;
+		height: 250px;
 
 	}
 
-	div.mission p, div.description p {
+	div.mission p {
 		font-size: 13px;
 	}
 
-	div.space {
+	div.description p {
+		font-size: 13px;
+		margin-top: 20px;
+	}
+
+	/*div.space {
 		width: 50%;
 		height: 50px;
 		border-bottom: solid 1px black;
 		margin: 0 auto;
-	}
+	}*/
 
 
 	div.vet-recommend {
 		width: 100%;
-		height: 220px;
+		height: 200px;
 		text-align: center;
 		position: relative;
 		bottom: 0;
-		margin-top: 5%;
+
 	}
 
-	div.box {
-		padding-bottom: 20px;
-	}
-	
+
 	div.description h2 {
 		color: black;
 		font-family: 'Lato', sans-serif;
@@ -256,18 +264,18 @@
 	}
 
 	.brand  {
-		width: 25%;
+		width: 100%;
 		height: 200px;	
-		text-align: left;
+		text-align: center;
 		text-transform: capitalize;
 		margin-left: 5%;
 	
 	}
 
 	.live-pics, .social-tweets{
-		width: 30%;
+		width: 100%;
 		height: 200px;	
-		text-align: left;
+		text-align: center;
 		text-transform: capitalize;
 		margin-left: 3%;
 		border-left: solid 1px #DFE2DB;
@@ -486,35 +494,35 @@
 	}
 
 	/*================div======================*/
-
+	
 	div.mission {
 		width: 60%;
+		text-align: left;
 
 	}
 
 	div.mission p, div.description p {
 		font-size: 13px;
+
+
 	}
 
 
 	div.vet-recommend {
 		width: 40%;
-		height: 220px;
-		text-align: center;
+		height: 200px;
+		text-align: left;
 		position: relative;
 		bottom: 0;
 	}
 
-	div.box {
-		padding-bottom: 20px;
-	}
-	
+
 	div.description h2 {
 		color: black;
 		font-family: 'Lato', sans-serif;
 		font-size: 18px;
 		font-weight: 400;
-		text-align: center;
+		text-align: left;
 		text-transform: uppercase;
 		-webkit-font-smoothing: antialiased;
 
@@ -525,7 +533,7 @@
 		color: black;
 		font-size: 16px;
 		font-weight: 350;
-		text-align: center;
+		text-align: left;
 		text-transform: uppercase;
 		-webkit-font-smoothing: antialiased;
 	}
@@ -541,6 +549,7 @@
 		font-size: 10px;
 		position: relative;
 		bottom: 0;
+		margin: 0 auto;
 	}
 
 	/*====================footer===============*/
@@ -651,12 +660,10 @@
 
 }
 
- /*laptop and desktop*/
- /*nav===========================================*/
+ /*==========================================================laptop and desktop=========================================*/
 
 
-
-@media screen and (min-width : 1090px) and (max-width: 1600px) {
+@media screen and (min-width : 1090px) {
 
     	/*navigation tabs*/
     
@@ -706,6 +713,11 @@
 		max-width: 100%;
 		margin: 0 auto;
 		overflow-y: hidden;
+
+	}
+
+	.row {
+		text-align: left;
 	}
 
 	/*=================sections=================*/
@@ -790,7 +802,10 @@
 	}
 
 	/*================div======================*/
-
+	div.row.middle {
+		width: 100%;
+		height: 250px;
+	}
 	div.mission {
 		width: 60%;
 	}
@@ -799,6 +814,9 @@
 		display: none;
 	}
 
+	div.box {
+		text-align: left;
+	}
 
 
 	div.vet-recommend {

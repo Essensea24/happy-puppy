@@ -24,7 +24,7 @@ $(window).on('scroll', function() {
     $topOffset = $(this).scrollTop();
     console.log($topOffset);
  
-    if (($topOffset >= 960) && (($window).width() >= 768)) {
+    if (($topOffset >= 1088) && (($window).width() >= 768)) {
     	// $('nav.navbar-inverse').css("background-color", "black");
         $('img.brandword').fadeOut();
         $("img.phone-logo").hide();
@@ -33,7 +33,7 @@ $(window).on('scroll', function() {
 
     }
 
-    if(($topOffset < 960) && ($(window).width() >= 768)) {
+    if(($topOffset < 1088) && ($(window).width() >= 768)) {
     	// $('nav.navbar-inverse').css("background-color", "white");
     	$('img.brandword').fadeIn();
     	$('ul.nav.navbar-nav').css("margin-left", "15%");
