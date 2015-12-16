@@ -239,10 +239,10 @@
 
 	div.vet-recommend {
 		width: 40%;
-		height: 200px;
+		height: 220px;
 		text-align: center;
-		margin-bottom: 2%;
-		/*position: relative;*/
+		position: relative;
+		bottom: 0;
 	}
 
 	div.box {
@@ -279,6 +279,7 @@
 		border: none;
 		color: white;
 		font-size: 10px;
+		position: relative;
 		bottom: 0;
 	}
 
@@ -463,15 +464,7 @@
 		-webkit-font-smoothing: antialiased;
 	}
 
-	button.buttonsmall {
-		text-align: center;
-		background-color: #558C89;
-		width: 150px;
-		height: 50px;
-		font-family: Lato,sans-serif;
-		border: none;
-		color: white;
-	}
+	
 
 	section.module p:last-child {
 		margin-bottom: 0;
@@ -564,6 +557,18 @@
 		text-align: left;
 		text-transform: uppercase;
 		-webkit-font-smoothing: antialiased;
+	}
+
+	button.buttonsmall {
+		text-align: center;
+		background-color: #558C89;
+		width: 150px;
+		height: 50px;
+		font-family: Lato,sans-serif;
+		border: none;
+		color: white;
+		position: relative;
+		bottom: 0;
 	}
 
 	
