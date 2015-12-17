@@ -687,15 +687,13 @@
 	}
 
 
-
-
  }
 
 
 
 
 /*=============================================================tablets====================================================================*/
-@media screen and (min-width: 768px) and (max-width: 1090px) {
+@media screen and (min-width: 768px) and (max-width: 1090px) and (-webkit-min-device-pixel-ratio: 2) {
 	
 	/*navigation tabs*/
     
