@@ -158,8 +158,13 @@
 
 	section.module.parallax-1 {
 		background-image: url("http://i.imgur.com/dtdvlM5.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
 		background-size: cover;
-		background-position: bottom center;	
+		overflow: hidden;
 	}
 
 	img.brandword {
