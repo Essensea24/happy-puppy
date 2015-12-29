@@ -1182,7 +1182,8 @@
 	}
 
 	section.module.parallax {
-		height: 680px;
+		width: 100%;
+		height: auto;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		-webkit-background-size: cover;
