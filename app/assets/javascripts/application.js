@@ -20,11 +20,12 @@ var $window = $(window);
 $(document).ready(function(){
     if ($(window).width() <768) {
         $('section.module.parallax').css("display", "none");
-        
+        $('div.mobile-background').show();
     }
 
     if ($(window).width() > 768) {
         $('section.module.parallax').show();
+        $('div.mobile-background').hide();
     }
 })
 
