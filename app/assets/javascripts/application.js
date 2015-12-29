@@ -17,13 +17,15 @@
 //= require bootstrap-sprockets
 var $window = $(window);
 
+
+// background image to load differently on smaller devices
 $(document).ready(function(){
-    if ($(window).width() <768) {
+    if ($(window).width() <=1024) {
         $('section.module.parallax').css("display", "none");
         $('div.mobile-background').show();
     }
 
-    if ($(window).width() > 768) {
+    if ($(window).width() > 1024) {
         $('section.module.parallax').show();
         $('div.mobile-background').hide();
     }
