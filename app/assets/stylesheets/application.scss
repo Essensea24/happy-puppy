@@ -122,7 +122,27 @@
 
 	}
 
+	div.mobile-background {
+		margin-top: 10%;
+		width: 100%;
+		margin: 0 auto;
+		background-size: cover;
+	}
+
+	img.mobile-bgone {
+		height: 600px;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		overflow: hidden;
+		background-position: 50% 50%;
+		position: relative;
+		margin-top: 15%;
+		margin-bottom: 10%;
+
+	}
+/*
 	section.module.parallax {
+		
 		height: 680px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -158,7 +178,14 @@
 
 	section.module.parallax-1 {
 		background-image: url("http://i.imgur.com/dtdvlM5.jpg");
-		background-position: center center;	
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		overflow: hidden;
+		background-position: 50% 50%;
 	}
 
 	img.brandword {
@@ -169,13 +196,13 @@
 		background-image: url("https://i.imgur.com/2OodMVD.jpg");
 		background-position: center center;
 
-	}
+	}*/
 
 	/*================div======================*/
 
 	div.row.middle {
 		width: 100%;
-		height: 500px;
+
 	}
 
 	div.mission {
@@ -1174,7 +1201,7 @@
 	}
 
 	section.module.parallax {
-		height: 680px;
+		width: 100%;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		-webkit-background-size: cover;

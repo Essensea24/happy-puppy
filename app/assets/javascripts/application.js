@@ -15,19 +15,27 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap-sprockets
-
 var $window = $(window);
+
+$(document).ready(function(){
+    if ($(window).width() <768) {
+        $('section.module.parallax').css("display", "none");
+        $('div.mobile-background').show();
+    }
+
+    if ($(window).width() > 768) {
+        $('section.module.parallax').show();
+        $('div.mobile-background').hide();
+    }
+})
+
+
+
 
 $(window).on('scroll', function() {
 
  // to remove logo after passing div.mission
     $topOffset = $(this).scrollTop();
-
-
-    if ($(window).width() < 768) {
-        $("section.module.parallax").css('display', 'none');
-        
-     } 
  
     if (($topOffset >= 1088) && ($(window).width() >= 768)) {
     	// $('nav.navbar-inverse').css("background-color", "black");
@@ -67,11 +75,10 @@ $(window).on('scroll', function() {
 // div rotation
 $(document).ready(function(){
 
-
 	$(".slideshow > div:gt(0)").hide();
 
 	setInterval(function() { 
-	  $('.slideshow > div:first')
+	   $('.slideshow > div:first')
 	    .fadeOut(7000)
 	    .next()
 	    .fadeIn(2000)
@@ -80,9 +87,9 @@ $(document).ready(function(){
 	},  7000);
 
 
-        $("button.navbar-toggle").click(function() {
-            $("img.brandword").hide();
-        });
+            $("button.navbar-toggle").click(function() {
+                $("img.brandword").hide();
+            });
 
      
 
