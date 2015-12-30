@@ -38,6 +38,7 @@ $(window).on('scroll', function() {
 
  // to remove logo after passing div.mission
     $topOffset = $(this).scrollTop();
+    console.log($topOffset);
  
     if (($topOffset >= 1088) && ($(window).width() >= 768)) {
     	// $('nav.navbar-inverse').css("background-color", "black");
@@ -56,15 +57,20 @@ $(window).on('scroll', function() {
 
     } 
 
-    if(($topOffset > 1300) && ($(window).width() < 768)) {
+    if(($topOffset > 470) && ($(window).width() < 768)) {
         // $('nav.navbar-inverse').css("background-color", "white");
         $('img.phone-logo').hide();
+        $('button.navbar-toggle').css({
+            'float': 'left',
+            'margin-left': '5%'
+            });
 
     } 
 
-     if(($topOffset <= 1300) && ($(window).width() < 768)) {
+     if(($topOffset <= 470) && ($(window).width() < 768)) {
         // $('nav.navbar-inverse').css("background-color", "white");
         $('img.phone-logo').fadeIn();
+        $('button.navbar-toggle').css("float", "right");
     }
 
 
