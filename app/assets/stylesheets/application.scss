@@ -22,6 +22,7 @@
 /*==============================================================phone portrait===========================================*/
 
 @media screen and (max-device-width: 400px) {
+ 	
  	div.navbar-header {
  		background-color: white;
  		height: 110px;
@@ -336,9 +337,6 @@
 	    -ms-transition: all ease 0.3s;
 	    background-color: white;
 	}
-
-
-
 
  }
 
@@ -723,12 +721,12 @@
 
 
 
-/*=========================================================for ipad size==========================================*/
+/*=========================================================for tablet==========================================*/
 
 /*=====================nav*/
 
 
- @media screen and (min-device-width: 768px) {
+ @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
  	div.navbar-header {
  		background-color: white;
  		height: 70px;
@@ -777,6 +775,10 @@
 
 	button.navbar-toggle {
 		background-color: purple;
+	}
+
+	.navbar-collapse.collapse {
+		padding-top: 4%;
 	}
 
 	div#my-navbar-collapse-1.navbar-collapse.collapse.in {
