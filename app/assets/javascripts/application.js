@@ -23,12 +23,17 @@ $(document).ready(function(){
     if ($(window).width() <=1024) {
         $('section.module.parallax').css("display", "none");
         $('div.mobile-background').show();
+        $('button.navbar-toggle').click(function(){
+            $('div.empty-div').toggle();
+        })
     }
 
     if ($(window).width() > 1024) {
         $('section.module.parallax').show();
         $('div.mobile-background').hide();
     }
+
+
 })
 
 
