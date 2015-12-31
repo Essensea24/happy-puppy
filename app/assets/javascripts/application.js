@@ -38,7 +38,7 @@ $(window).on('scroll', function() {
 
  // to remove logo after passing div.mission
     $topOffset = $(this).scrollTop();
-    console.log($topOffset);
+    // console.log($topOffset);
  
     if (($topOffset >= 1088) && ($(window).width() >= 768)) {
     	// $('nav.navbar-inverse').css("background-color", "black");
@@ -59,7 +59,7 @@ $(window).on('scroll', function() {
 
     if(($topOffset > 470) && ($(window).width() < 768)) {
         // $('nav.navbar-inverse').css("background-color", "white");
-        $('img.phone-logo').hide();
+        $('img.phone-logo').fadeOut('slow');
         $('button.navbar-toggle').css({
             'float': 'left',
             'margin-left': '5%'
