@@ -17,6 +17,10 @@
 @import "bootstrap";
 
 
+body {
+	overflow: hidden;
+}
+
 
 
 /*==============================================================phone portrait===========================================*/
@@ -377,7 +381,7 @@
  	div.navbar-header {
  		background-color: white;
  		height: 110px;
- 		padding-top: 3%;
+ 		padding-top: 5%;
  	}
  	
  	ul.nav.navbar-nav {
@@ -405,7 +409,7 @@
 
 	img.phone-logo {
 		max-width: 50%;
-		height: 60px;
+		height: 50px;
 		background-size: cover;
 		margin-left: 10%;
 
