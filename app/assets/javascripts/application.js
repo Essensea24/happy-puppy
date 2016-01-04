@@ -100,6 +100,18 @@ $(document).ready(function(){
 	},  7000);
 
 
+            $(".backgroundslide > div:gt(0)").hide();
+
+            setInterval(function() { 
+           $('.backgroundslide > div:first')
+            .fadeOut("10000")
+            .next()
+            .fadeIn("5000")
+            .end()
+            .appendTo('.backgroundslide');
+        },  10000);
+
+
             $("button.navbar-toggle").click(function() {
                 $("img.brandword").hide();
             });

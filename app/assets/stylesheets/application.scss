@@ -709,6 +709,31 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=========================================================for ipad size==========================================*/
 
 /*=====================nav*/
@@ -849,10 +874,13 @@
 	}
 
 
-	section.module.parallax-1 {
+	/*section.module.parallax-1 {
 		background-image: url("https://i.imgur.com/rRrnF4m.jpg");
 		background-position: 40% 40%;	
-	}
+	}*/
+
+
+
 
 	img.brandword {
 		zoom: 1;
@@ -1073,53 +1101,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  /*==========================================================laptop and desktop=========================================*/
 
 
-@media screen and (min-width : 1024px) {
+@media screen and (min-device-width : 1000px) {
 
     	/*navigation tabs*/
     
@@ -1250,10 +1235,501 @@
 
 
 
+	/*section.module.parallax-1 {
+		background-image: url("http://i.imgur.com/dtdvlM5.jpg");
+		background-position: 50% 40%;	
+	}*/
+
+
+
+	img.phone-logo{
+		display: none;
+	}
+
+
+	section.module.parallax-2 {
+		background-image: url("https://i.imgur.com/2OodMVD.jpg");
+		background-position: 80% 50%;
+
+	}
+
+	/*================div======================*/
+	div.row.middle {
+		width: 100%;
+		height: 250px;
+	}
+	div.mission {
+		width: 60%;
+	}
+
+	div.space {
+		display: none;
+	}
+
+	div.box {
+		text-align: left;
+	}
+
+
+	div.vet-recommend {
+		width: 40%;
+		height: 200px;
+		position: relative;
+	}
+
+
+	div.description h2 {
+		color: black;
+		font-family: 'Lato', sans-serif;
+		font-size: 25px;
+		font-weight: 400;
+		text-align: left;
+		text-transform: uppercase;
+		-webkit-font-smoothing: antialiased;
+
+	}
+
+	div.description  h4 {
+		font-family: 'Lato', sans-serif;
+		color: black;
+		font-size: 16px;
+		font-weight: 400;
+		text-align: left;
+		text-transform: uppercase;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	button.buttonsmall {
+		text-align: center;
+		background-color: #558C89;
+		width: 150px;
+		height: 50px;
+		font-family: Lato,sans-serif;
+		border: none;
+		color: white;
+		position: relative;
+		bottom: 0;
+	}
+
+	
+
+	section.module.content.footer-background {
+		height: 350px;
+	}
+
+	div.footer {
+		width: 100%;
+		height: 300px;
+		background-color: #32313B;
+		margin-top: -3%;
+		padding-top: 5%;
+		margin-bottom: -15px;
+	
+	}
+
+	.brand  {
+		width: 25%;
+		height: 200px;	
+		text-align: left;
+		text-transform: capitalize;
+		margin-left: 10%;
+	
+	}
+
+	.live-pics, .social-tweets{
+		width: 25%;
+		height: 200px;	
+		text-align: left;
+		text-transform: capitalize;
+		margin-left: 3%;
+		border-left: solid 1px #DFE2DB;
+
+
+	}
+
+
+	.footer-brand {
+		height: 100px;
+		background-size: cover;
+		margin-bottom: 5px;	
+		-webkit-font-smoothing: antialiased;
+		margin-left: -6%;
+
+	}
+
+	.footer-brand p, .social-tweets p, .live-pics p {
+		text-align: left;
+		font-family: 'Lato', sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 20px;
+		-webkit-font-smoothing: antialiased;
+		color: grey;
+	}
+
+	.footer-bottom {
+		height: 100px;
+		margin-top: 60px;
+		margin-left: -8%;
+	}
+
+
+	.footer-bottom ul {
+	    margin: 0;
+	    padding: 5px;
+	}
+
+	.footer-bottom ul li {
+	    margin: 5px;
+	    list-style: none outside none;
+	    display: inline-block;
+	}
+
+	.footer-bottom i {
+	    width: 35px;
+	    height: 35px;
+	    color: #FFF;
+	    background-color: black;
+	    font-size: 12px;
+	    text-align:center;
+	    padding-top: 12px;
+	    border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -o-border-radius: 50%;
+	    transition: all ease 0.3s;
+	    -moz-transition: all ease 0.3s;
+	    -webkit-transition: all ease 0.3s;
+	    -o-transition: all ease 0.3s;
+	    -ms-transition: all ease 0.3s;
+	}
+
+	.footer-bottom i:hover {
+	    color: black;
+	    text-decoration: none;
+	    transition: all ease 0.3s;
+	    -moz-transition: all ease 0.3s;
+	    -webkit-transition: all ease 0.3s;
+	    -o-transition: all ease 0.3s;
+	    -ms-transition: all ease 0.3s;
+	    background-color: white;
+	}
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*==========================================================laptop and desktop=========================================*/
+
+
+@media screen and (min-device-width : 1024px) {
+
+    	/*navigation tabs*/
+    
+    	ul.nav.navbar-nav {
+		width: 80%;
+		text-align: center;
+		margin-left: 15%;
+
+	}
+
+
+	.navbar-inverse {
+		background-color: white;
+		/*border-bottom: solid 1px white;*/
+		display: fixed;
+
+	}
+
+	.navbar-inverse .navbar-nav > li > a {
+		color: black;
+		font-family: 'Lato', sans-serif;
+		font-size: 25px;
+		font-weight: 400;
+		text-align: left;
+		text-transform: uppercase;
+		-webkit-font-smoothing: antialiased;
+		font-size: 14px;
+		text-align: center;
+	}
+
+
+	.navbar-inverse .navbar-nav > li > a:hover {
+		color: purple;
+		cursor: pointer;
+	}
+
+
+	img.brandword {
+		max-width: 180px;
+		height: 40px;
+		background-size: cover;
+		zoom: 1.3;
+		padding-left: 30px;
+		padding-right: 30px;
+
+	}
+
+	
+	/*home page=================================*/
+
+	/*==============primary structure==============*/
+	.container-fluid {
+		max-width: 100%;
+		margin: 0 auto;
+		overflow-y: hidden;
+		text-align: center;
+
+	}
+
+	.row {
+		text-align: left;
+	}
+
+	/*=================sections=================*/
+	/*to elimate the bottom space*/
+	section.module:last-child {
+		margin-bottom: 0;
+	}
+
+	section.module h2 {
+		margin-bottom: 40px;
+		font-family: serif;
+		font-size: 30px;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	section.module p {
+		margin-bottom: 40px;
+		font-size: 16px;
+		font-weight: 300;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	
+
+	section.module p:last-child {
+		margin-bottom: 0;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	section.module.content {
+		padding: 40px 0;
+		background-color: #F6F6F6;
+
+	}
+
+	section.module.parallax {
+		width: 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		overflow: hidden;
+
+	}
+
+	section.module.parallax-1 h1 {
+		color: white;
+		font-size: 48px;
+		line-height: 600px;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	section.module.parallax-2 h1 {
+		font-family: 'Lato', sans-serif;
+		color: white;
+		font-size: 25px;
+		line-height: 900px;
+		font-weight: 700;
+		text-align: 1;
+		text-transform: uppercase;
+		-webkit-font-smoothing: antialiased;
+	}
+
+
+	div.container-fluid.backgroundslide {
+		width: 100%;
+		padding-right: 0px;
+		padding-left: 0px;
+		
+	}
+
+	div.background1, div.background2, div.background3 {
+		width: 100%;
+		height: 700px;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		overflow: hidden;
+		-webkit-box-shadow: 0 6px 6px -6px grey;
+		-moz-box-shadow: 0 6px 6px -6px grey;
+		box-shadow: 0 6px 6px -6px grey;
+	}
+
+	div.background1 {
+		background-position: 50% 30%;
+		background-image: url("http://i.imgur.com/dtdvlM5.jpg")
+	}
+
+	div.background2 {
+		background-position: 50% 40%;
+		background-image: url("http://i.imgur.com/39J41pT.jpg")
+	}
+
+	div.background3 {
+		background-position: 50% 20%;
+		background-image: url("http://i.imgur.com/qgQ7t8W.jpg")
+	}
+/*
 	section.module.parallax-1 {
 		background-image: url("http://i.imgur.com/dtdvlM5.jpg");
 		background-position: 50% 40%;	
-	}
+	}*/
+
+
 
 	img.phone-logo{
 		display: none;
