@@ -28,6 +28,7 @@ $(document).ready(function(){
         $('img.phone-logo').show();
         // hide parallax div since it won't work on tablet or mobile devices
         $('section.module.parallax').css("display", "none");
+         $('div.mobile-background').show();
 
         $(window).on('scroll', function() {
             $topOffset = $(this).scrollTop();
@@ -51,52 +52,56 @@ $(document).ready(function(){
         });
     }
 
-    if ($(window).width() <=768) {
+    if ($(window).width() ==768) {
+
         $('img.phone.logo').hide();
         $('img.brandword').show();
         // hide parallax div since it won't work on tablet or mobile devices
-        // $('section.module.parallax').show()
-        // $('div.mobile-background').hide();
+        $('section.module.parallax').hide()
+        $('div.mobile-background').show();
 
          $(window).on('scroll', function() {
             $topOffset = $(this).scrollTop();
             console.log($topOffset );
              //fade out phone logo when user see the footer logo
             if ($topOffset > 470) {
+                console.log("greater than 470")
      
-                $('img.brandword').fadeOut('slow');
+                $('img.brandword').hide();
 
             } 
             //fade in when user scrow backup away from the footer
             if ($topOffset <= 470) {
+                  console.log("less than 470")
 
-                $('img.brandword').fadeIn();
+                $('img.brandword').show();
             }
         });
 
     }
 
 
-    if ($(window).width() <=1024) {
+    if ($(window).width() <1024) {
         // hide parallax div since it won't work on tablet or mobile devices
         $('section.module.parallax').css("display", "none");
         //display background div for normal scroll background image
         $('div.mobile-background').show();
 
-
          $(window).on('scroll', function() {
             $topOffset = $(this).scrollTop();
             console.log($topOffset );
              //fade out phone logo when user see the footer logo
-            if ($topOffset > 2600) {
+            if (($topOffset > 2600) && ($(window).width() < 768)) {
+                  console.log("2600")
      
                 $('img.brandword').fadeOut('slow');
 
             } 
             //fade in when user scrow backup away from the footer
-            if ($topOffset <= 2600) {
-
+            if (($topOffset <= 2600) && ($(window).width() < 768)) {
+                  console.log("less than 2600")
                 $('img.brandword').fadeIn();
+
             }
         });
     }
