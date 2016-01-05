@@ -51,11 +51,12 @@ $(document).ready(function(){
         });
     }
 
-    if ($(window).width() == 768) {
+    if ($(window).width() <=768) {
         $('img.phone.logo').hide();
         $('img.brandword').show();
         // hide parallax div since it won't work on tablet or mobile devices
-        $('section.module.parallax').css("display", "none");
+        // $('section.module.parallax').show()
+        // $('div.mobile-background').hide();
 
          $(window).on('scroll', function() {
             $topOffset = $(this).scrollTop();
@@ -76,16 +77,12 @@ $(document).ready(function(){
     }
 
 
-    if ($(window).width() ==1024) {
+    if ($(window).width() <=1024) {
         // hide parallax div since it won't work on tablet or mobile devices
         $('section.module.parallax').css("display", "none");
         //display background div for normal scroll background image
         $('div.mobile-background').show();
-        //click event listener to add empty div when menu button is hit
-        $('button.navbar-toggle').click(function(){
-            $('div.empty-div').toggle();
 
-        })
 
          $(window).on('scroll', function() {
             $topOffset = $(this).scrollTop();
