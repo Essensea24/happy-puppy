@@ -46,7 +46,7 @@ $(window).on('scroll', function() {
     // console.log($topOffset);
  
     if (($topOffset >= 1088) && ($(window).width() > 768)) {
-    	// $('nav.navbar-inverse').css("background-color", "black");
+        // $('nav.navbar-inverse').css("background-color", "black");
         $('img.brandword').fadeOut();
         $("img.phone-logo").fadeOut("slow");
         $('ul.nav.navbar-nav').css("margin-left", "0px");
@@ -55,9 +55,9 @@ $(window).on('scroll', function() {
     }
 
     if(($topOffset < 1088) && ($(window).width() > 768)) {
-    	// $('nav.navbar-inverse').css("background-color", "white");
-    	$('img.brandword').fadeIn();
-    	$('ul.nav.navbar-nav').css("margin-left", "15%");
+        // $('nav.navbar-inverse').css("background-color", "white");
+        $('img.brandword').fadeIn();
+        $('ul.nav.navbar-nav').css("margin-left", "15%");
             
 
     } 
@@ -88,16 +88,16 @@ $(window).on('scroll', function() {
 // div rotation
 $(document).ready(function(){
 
-	$(".slideshow > div:gt(0)").hide();
+    $(".slideshow > div:gt(0)").hide();
 
-	setInterval(function() { 
-	   $('.slideshow > div:first')
-	    .fadeOut(7000)
-	    .next()
-	    .fadeIn(2000)
-	    .end()
-	    .appendTo('.slideshow');
-	},  7000);
+    setInterval(function() { 
+       $('.slideshow > div:first')
+        .fadeOut(7000)
+        .next()
+        .fadeIn(2000)
+        .end()
+        .appendTo('.slideshow');
+    },  7000);
 
 
             $("button.navbar-toggle").click(function() {

@@ -754,6 +754,7 @@ body {
 	/*nav-bar menu background to black*/
 	.navbar-inverse {
 		background-color: white;
+		border-bottom: none;
 		display: fixed;
 	}
 
@@ -768,7 +769,7 @@ body {
 		text-align: center;
 	}
 
-	img.phone-log {
+	img.phone-logo {
 		display: none;
 	}
 
