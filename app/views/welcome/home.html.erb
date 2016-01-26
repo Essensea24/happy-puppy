@@ -36,8 +36,8 @@
 </section>
 <section class="module content footer-background">
 	<div class="container-fluid footer">
-		<div class="row">
-			<div class="brand col-sm-12 col-md-4">
+		<div class="row row-footer">
+			<div class="brand col-sm-12 col-md-3">
 				<div class="footer-brand">
 				<%=image_tag("happy-puppy.png", :class=>"footer-brand")%>
 				<p>relationship builder & positive reinforcement.</p>
@@ -54,11 +54,40 @@
 		
 				
 			</div> <!-- close container -->
-			<div class="social-tweets col-sm-12 col-md-4">
-				<p> middle</p>
-			</div>
-			<div class="live-pics col-sm-12 col-md-4">
+			
+			<div class="social-tweets col-sm-4 col-md-3">
 				<p> right</p>
+			</div>
+			<div class="live-pics col-sm-12">
+				<div class="instagram_top">
+					<a href="https://www.instagram.com/happypuppy_dogtraining/" target="_blank" title="@happypuppy_training" class="instagram_link">
+					<div class="instagram_logo"><%= image_tag "paw.png"%>
+					</div>
+					<div class="instagram_text">
+					
+					<p>@happypuppy_traning
+					<br>professional puppy trainer</p>
+					</div>
+
+					</a>
+				</div>
+				
+				<div class="row-instagram">
+				<% @responses.each do |r|%>
+	
+				<%= image_tag r["images"]["thumbnail"]["url"], :class=> "insta_image col-md-4"%>
+
+				<% end %>
+				</div>
+				<div class="instagram-button">
+					<div class="followus_btn">
+					<a href="https://www.instagram.com/happypuppy_dogtraining/">
+
+					<i class="fa fa-instagram fa-lg"></i> 
+					<p>   follow us on instagram</p>
+					</a>
+					</div>
+				</div>
 			</div>
 
 		</div> <!-- close row -->

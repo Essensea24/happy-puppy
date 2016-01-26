@@ -23,6 +23,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 
+gem 'httparty', '~> 0.13.7'
+
 ruby '2.2.1'
 
 group :production do
