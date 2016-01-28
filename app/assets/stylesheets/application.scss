@@ -1849,6 +1849,50 @@ body {
 		color: grey;
 	}
 
+	div.yelp_btn {
+		height: 35px;
+		width: 60%;
+		background-color: white;
+		text-align: center;
+		border-radius: 2%;
+	}
+
+	div.yelp_btn i {
+		color: red;
+		float: left;
+		line-height: 35px;
+		margin-left: 10%;
+		margin-right: 3%;
+	}
+
+	div.yelp_btn a img {
+		float: left;
+		margin-left: 8%;
+		margin-right: 2%;
+	}
+
+	div.yelp_btn p {
+		color: black;
+		text-transform: lowercase;
+		line-height: 35px;
+	}
+
+
+	h4.yelp-account {
+		color: 	black;
+	}
+
+	a.review-text {
+		color: grey;
+		font-size: 12px;
+	}
+
+	a.review-text:hover {
+		color:white;
+	}
+
+
+
 	.footer-bottom {
 		height: 100px;
 		margin-top: 60px;

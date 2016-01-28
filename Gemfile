@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'httparty', '~> 0.13.7'
 
+gem "figaro"
+
 ruby '2.2.1'
 
 group :production do
