@@ -616,13 +616,13 @@ body {
 	
 	}
 
-	.live-pics, .social-tweets{
+	.social-tweets{
 		width: 100%;
 		height: 200px;	
 		text-align: center;
 		text-transform: capitalize;
 		margin-left: 3%;
-		border-left: solid 1px #DFE2DB;
+
 
 
 	}
@@ -982,13 +982,13 @@ body {
 	
 	}
 
-	.live-pics, .social-tweets{
+	.social-tweets{
 		width: 100%;
 		height: 200px;	
 		text-align: center;
 		text-transform: capitalize;
 		margin-left: 3%;
-		border-left: solid 1px #DFE2DB;
+		
 
 
 	}
@@ -1339,13 +1339,12 @@ body {
 	
 	}
 
-	.live-pics, .social-tweets{
+	.social-tweets{
 		width: 25%;
 		height: 200px;	
 		text-align: left;
 		/*text-transform: capitalize;*/
 		margin-left: 3%;
-		border-left: solid 1px #DFE2DB;
 
 
 	}
@@ -1719,28 +1718,107 @@ body {
 	
 
 	section.module.content.footer-background {
-		height: 450px;
+		height: 375px;
+		width: 100%;
+		background-color: #404040;
+		margin-top: 0px;
 	}
 
 	div.container-fluid.footer {
 		width: 100%;
-		height: 420px;
+		height: 375px;
+		background-color: transparent;
+		padding: 2% 0% 2% 0%;
 	}
 
 	.brand  {
-		width: 25%;
+		width: 18%;
 		height: 350px;	
 		text-align: left;
-		text-transform: capitalize;
+		margin-left: 8%;
+		margin-right: 3%;
 		
 	
 	}
 
+	.footer-brand {
+		height: 100px;
+		background-size: cover;
+		margin-bottom: 15%;	
+		-webkit-font-smoothing: antialiased;
+
+
+	}
+
+	.footer-brand p, .social-tweets p, .live-pics p {
+		text-align: left;
+		font-family: 'Lato', sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 20px;
+		-webkit-font-smoothing: antialiased;
+		color: white;
+	}
+
+	.brand-bottom {
+		height: 100px;
+		margin-left: -8%;
+		margin-top: 80%;
+	}
+
+
+	.brand-bottom ul {
+		margin: 0;
+		padding: 5px;
+	}
+
+	.brand-bottom ul li {
+	    margin: 5px;
+	    list-style: none outside none;
+	    display: inline-block;
+	}
+
+	.brand-bottom i {
+	    width: 40px;
+	    height: 40px;
+	    color: #FFF;
+	    background-color: black;
+	    font-size: 18px;
+	    text-align:center;
+	    padding-top: 12px;
+	    border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -o-border-radius: 50%;
+	    transition: all ease 0.3s;
+	    -moz-transition: all ease 0.3s;
+	    -webkit-transition: all ease 0.3s;
+	    -o-transition: all ease 0.3s;
+	    -ms-transition: all ease 0.3s;
+	}
+
+	.brand-bottom i:hover {
+	    color: black;
+	    text-decoration: none;
+	    transition: all ease 0.3s;
+	    -moz-transition: all ease 0.3s;
+	    -webkit-transition: all ease 0.3s;
+	    -o-transition: all ease 0.3s;
+	    -ms-transition: all ease 0.3s;
+	    background-color: white;
+	}
+
+	.vertical-line {
+		width: 1%;
+		height: 200px;
+		border-left: solid 1px grey;
+		margin-top: 5%;
+	}
+
 	.live-pics {
-		width: 33%;
+		width: 28%;
 		height: 400px;
-		margin-top: -2%;
-		padding-left: 5%;
+		
 
 	}
 
@@ -1748,15 +1826,19 @@ body {
 		width: 100%;
 		height: 50px;
 		margin-bottom: 2%;
+		margin-left: 10%;
 	}
 
 	div.instagram_text p {
 		text-transform: lowercase;
+		line-height: 50px;
+		color: white;
+
 	}
 
 	div.row-instagram{
-		width: 100%;
-		height: 270px;
+		width: 90%;
+		height: 220px;
 		margin: 0 auto;
 		overflow-y: hidden;
 	}
@@ -1821,33 +1903,24 @@ body {
 	}
 
 	.social-tweets{
-		width: 25%;
+		width: 30%;
 		height: 200px;	
 		text-align: left;
-		border-left: solid 1px #DFE2DB;
+		padding: 0px 40px 0px 0px;
 
 
 	}
 
+	
 
-	.footer-brand {
+	div.yelp-button {
+		width: 100%;
 		height: 100px;
-		background-size: cover;
-		margin-bottom: 5px;	
-		-webkit-font-smoothing: antialiased;
-		margin-left: -6%;
+		text-align: center;
+		margin-top: 30%;
+		margin-left: 15%;
 
-	}
-
-	.footer-brand p, .social-tweets p, .live-pics p {
-		text-align: left;
-		font-family: 'Lato', sans-serif;
-		font-size: 12px;
-		font-weight: 400;
-		line-height: 20px;
-		-webkit-font-smoothing: antialiased;
-		color: grey;
-	}
+	} 
 
 	div.yelp_btn {
 		height: 35px;
@@ -1855,6 +1928,7 @@ body {
 		background-color: white;
 		text-align: center;
 		border-radius: 2%;
+
 	}
 
 	div.yelp_btn i {
@@ -1867,7 +1941,7 @@ body {
 
 	div.yelp_btn a img {
 		float: left;
-		margin-left: 8%;
+		margin-left: 20%;
 		margin-right: 2%;
 	}
 
@@ -1875,16 +1949,20 @@ body {
 		color: black;
 		text-transform: lowercase;
 		line-height: 35px;
+		margin-left: 30%;
 	}
 
 
 	h4.yelp-account {
 		color: 	black;
+		margin-bottom: 25%;
 	}
 
 	a.review-text {
-		color: grey;
-		font-size: 12px;
+		color: white;
+		font-size: 14px;
+		font-family: 'Lato', sans-serif;
+		text-transform: none;
 	}
 
 	a.review-text:hover {
@@ -1893,53 +1971,7 @@ body {
 
 
 
-	.footer-bottom {
-		height: 100px;
-		margin-top: 60px;
-		margin-left: -8%;
-	}
-
-
-	.footer-bottom ul {
-		margin: 0;
-		padding: 5px;
-	}
-
-	.footer-bottom ul li {
-	    margin: 5px;
-	    list-style: none outside none;
-	    display: inline-block;
-	}
-
-	.footer-bottom i {
-	    width: 35px;
-	    height: 35px;
-	    color: #FFF;
-	    background-color: black;
-	    font-size: 12px;
-	    text-align:center;
-	    padding-top: 12px;
-	    border-radius: 50%;
-	    -moz-border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    -o-border-radius: 50%;
-	    transition: all ease 0.3s;
-	    -moz-transition: all ease 0.3s;
-	    -webkit-transition: all ease 0.3s;
-	    -o-transition: all ease 0.3s;
-	    -ms-transition: all ease 0.3s;
-	}
-
-	.footer-bottom i:hover {
-	    color: black;
-	    text-decoration: none;
-	    transition: all ease 0.3s;
-	    -moz-transition: all ease 0.3s;
-	    -webkit-transition: all ease 0.3s;
-	    -o-transition: all ease 0.3s;
-	    -ms-transition: all ease 0.3s;
-	    background-color: white;
-	}
+	
 
 
 

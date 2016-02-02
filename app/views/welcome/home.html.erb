@@ -30,70 +30,11 @@
 
 <section class="module parallax parallax-2">
 	<div class="container-fluid">
-		<h1> Happy Training. Positive reinforcement.<h1>
 	</div>
 	
 </section>
 <section class="module content footer-background">
-	<div class="container-fluid footer">
-		<div class="row row-footer">
-			<div class="brand col-sm-12 col-md-3">
-				<div class="footer-brand">
-				<%=image_tag("happy-puppy.png", :class=>"footer-brand")%>
-				<p>relationship builder & positive reinforcement.</p>
-				</div>
-				<div class="footer-bottom" >
-	  				<ul class="icons" >
-					    <a href="https://www.instagram.com/happypuppy_dogtraining/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-
-					      <a href="https://www.facebook.com/HappyPuppyDogTraining/?fref=ts" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-					      
-					       <a href="http://www.yelp.com/biz/happy-puppy-dog-training-los-angeles-2" target="_blank"><i class="fa fa-yelp fa-2x"></i></a>
-				  	</ul>
-				</div>
-		
-				
-			</div> <!-- close container -->
-			
-			<div class="social-tweets col-sm-4 col-md-3">
-
-				<%= render "welcome/review" %>
-				
-			</div>
-			<div class="live-pics col-sm-12">
-				<div class="instagram_top">
-					<a href="https://www.instagram.com/happypuppy_dogtraining/" target="_blank" title="@happypuppy_training" class="instagram_link">
-					<div class="instagram_logo"><%= image_tag "paw.png"%>
-					</div>
-					<div class="instagram_text">
-					
-					<p>@happypuppy_traning
-					<br>professional puppy trainer</p>
-					</div>
-
-					</a>
-				</div>
-				
-				<div class="row-instagram">
-				<% @responses.each do |r|%>
-	
-				<%= image_tag r["images"]["thumbnail"]["url"], :class=> "insta_image col-md-4"%>
-
-				<% end %>
-				</div>
-				<div class="instagram-button">
-					<div class="followus_btn">
-					<a href="https://www.instagram.com/happypuppy_dogtraining/">
-
-					<i class="fa fa-instagram fa-lg"></i> 
-					<p>   follow us on instagram</p>
-					</a>
-					</div>
-				</div>
-			</div>
-
-		</div> <!-- close row -->
-	</div>
+	<%= render "welcome/footer" %>
 </section>
 
 
