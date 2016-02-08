@@ -27,6 +27,8 @@ gem 'httparty', '~> 0.13.7'
 
 gem "figaro"
 
+gem 'yelp', require: 'yelp'
+
 ruby '2.2.1'
 
 group :production do

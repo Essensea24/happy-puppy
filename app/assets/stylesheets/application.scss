@@ -1911,65 +1911,41 @@ body {
 
 	}
 
+	div#yelpheader {
+		margin-top: 5%;
+	}
+
 	
 
-	div.yelp-button {
-		width: 100%;
-		height: 100px;
-		text-align: center;
-		margin-top: 30%;
-		margin-left: 15%;
-
-	} 
-
-	div.yelp_btn {
-		height: 35px;
-		width: 60%;
-		background-color: white;
-		text-align: center;
-		border-radius: 2%;
-
-	}
-
-	div.yelp_btn i {
-		color: red;
-		float: left;
-		line-height: 35px;
-		margin-left: 10%;
-		margin-right: 3%;
-	}
-
-	div.yelp_btn a img {
-		float: left;
-		margin-left: 20%;
-		margin-right: 2%;
-	}
-
-	div.yelp_btn p {
-		color: black;
-		text-transform: lowercase;
-		line-height: 35px;
-		margin-left: 30%;
-	}
-
-
-	h4.yelp-account {
-		color: 	black;
-		margin-bottom: 25%;
-	}
-
-	a.review-text {
-		color: white;
-		font-size: 14px;
-		font-family: 'Lato', sans-serif;
-		text-transform: none;
-		color: #E2DEDE;
-	}
-
-	a.review-text:hover {
+	div#yelptitle {
 		color:white;
 	}
 
+	 div#numreviews {
+		color: #af0606;
+		font-family: 'Lato', sans-serif;
+	}
+
+
+	div.reviewername {
+		color: #0193B7;
+		font-family: 'Lato', sans-serif;
+		margin-top: 5%;
+		text-decoration: bold;
+		font-size: 14px;
+	}
+
+	div#review0 {
+		color: white;
+		font-family: 'Lato', sans-serif;
+		text-transform: none;
+	}
+
+
+
+	div#review0 img, div#recentreviews, img#yelpbutton, img.yelpreviewimg {
+		display: none;
+	}
 
 
 	
