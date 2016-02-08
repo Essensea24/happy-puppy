@@ -1912,18 +1912,21 @@ body {
 	}
 
 	div#yelpheader {
-		margin-top: 5%;
+		margin-top: 7%;
 	}
 
 	
 
 	div#yelptitle {
-		color:white;
+		color:black;
+		font-family: 'Lato', sans-serif;
+		margin-bottom: 2%;
 	}
 
 	 div#numreviews {
-		color: #af0606;
+		color: black;
 		font-family: 'Lato', sans-serif;
+		font-weight: none;
 	}
 
 
@@ -1932,7 +1935,7 @@ body {
 		font-family: 'Lato', sans-serif;
 		margin-top: 5%;
 		text-decoration: bold;
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	div#review0 {
@@ -1947,8 +1950,43 @@ body {
 		display: none;
 	}
 
+	div.yelp-button {
+		width: 80%;
+		height: 50px;
+		text-align: center;
+		margin-left: 15%;
 
-	
+	} 
+
+	div.yelp_btn {
+		height: 35px;
+		width: 60%;
+		background-color: white;
+		text-align: center;
+		border-radius: 2%;
+
+	}
+
+	div.yelp_btn i {
+		color: red;
+		float: left;
+		line-height: 35px;
+		margin-left: 10%;
+		margin-right: 3%;
+	}
+
+	div.yelp_btn a img {
+		float: left;
+		margin-left: 20%;
+		margin-right: 2%;
+	}
+
+	div.yelp_btn p {
+		color: black;
+		text-transform: lowercase;
+		line-height: 35px;
+		margin-left: 30%;
+	}
 
 
 
