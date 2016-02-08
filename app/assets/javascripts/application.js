@@ -146,7 +146,7 @@ $(document).ready(function(){
         .fadeIn(2000)
         .end()
         .appendTo('.slideshow');
-    },  7000);
+    },  4000);
 
 
        
